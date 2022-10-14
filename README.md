@@ -69,19 +69,19 @@ set, so I will continue with this data set.
 To complete the project, I used 5 of the 18 csv files. Many of the files
 contained data stored in a different csv file. Below is a description:
 
-`dailyActivity_merged` File is in long format 15x940. The variables are
-Id, ActivityDate, TotalSteps, TotalDistance, TrackerDistance,
+`dailyActivity_merged` File is in long format 940 x 15. The variables
+are Id, ActivityDate, TotalSteps, TotalDistance, TrackerDistance,
 LoggedActivitiesDistance, VeryActiveDistance, ModeratelyActiveDistance,
 LightActiveDistance, SedentaryActiveDistance, VeryActiveMinutes,
 FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes, and
 Calories. This file has no missing “blank” cell. It has date format and
 seems to be complete.
 
-`dailyCalories_merged` File is in long format 3 x 940. The variables are
+`dailyCalories_merged` File is in long format 940 x 3. The variables are
 Id, ActivityDay, and Calories. This file has no missing “blank” cell. It
 has date format and seems to be complete.
 
-`dailyIntensities_merged` The file is in long format 10 x 940. The
+`dailyIntensities_merged` The file is in long format 940 x 10. The
 variables are Id, ActivityDay, SedentaryMinutes, LightlyActiveMinutes,
 FairlyActiveMinutes, VeryActiveMinutes, SedentaryActiveDistance,
 LightActiveDistance, ModeratelyActiveDistance, and VeryActiveDistance.
@@ -92,13 +92,13 @@ date format. The file seems to be complete.
 `sleepDay_merged` The variables are Id, SleepDay, TotalSleepRecords,
 TotalMinutesAsleep, and TotalTimeInBed. This file has no missing “blank”
 cell. The date is in datetime format and needs to be formatted. The data
-frame is 5 x 412, so we do not have data for every participant.
+frame is 412 x 5, so we do not have data for every participant.
 
 `weightLogInfo_merged` The variables are Id, Date, WeightKg,
 WeightPounds, Fa, BMI, IsManualReport, and LogId. This file has no
 missing “blank” cell. The date is in datetime format and needs to be
 formatted. We are missing most of the information in the Fat columns.
-The data frame is 8 x 67, so we do not have data for every participant.
+The data frame is 67 x 8, so we do not have data for every participant.
 
 The remaining files were not used: dailySteps_merged,
 heartrate_seconds_merged, hourlyCalories_merged,

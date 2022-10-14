@@ -661,18 +661,18 @@ data set, so I will continue with this data set.</p>
 <p>To complete the project, I used 5 of the 18 csv files. Many of the
 files contained data stored in a different csv file. Below is a
 description:</p>
-<p><code>dailyActivity_merged</code> File is in long format 15x940. The
-variables are Id, ActivityDate, TotalSteps, TotalDistance,
+<p><code>dailyActivity_merged</code> File is in long format 940 x 15.
+The variables are Id, ActivityDate, TotalSteps, TotalDistance,
 TrackerDistance, LoggedActivitiesDistance, VeryActiveDistance,
 ModeratelyActiveDistance, LightActiveDistance, SedentaryActiveDistance,
 VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes,
 SedentaryMinutes, and Calories. This file has no missing “blank” cell.
 It has date format and seems to be complete.</p>
-<p><code>dailyCalories_merged</code> File is in long format 3 x 940. The
+<p><code>dailyCalories_merged</code> File is in long format 940 x 3. The
 variables are Id, ActivityDay, and Calories. This file has no missing
 “blank” cell. It has date format and seems to be complete.</p>
-<p><code>dailyIntensities_merged</code> The file is in long format 10 x
-940. The variables are Id, ActivityDay, SedentaryMinutes,
+<p><code>dailyIntensities_merged</code> The file is in long format 940 x
+10. The variables are Id, ActivityDay, SedentaryMinutes,
 LightlyActiveMinutes, FairlyActiveMinutes, VeryActiveMinutes,
 SedentaryActiveDistance, LightActiveDistance, ModeratelyActiveDistance,
 and VeryActiveDistance. There are no data for columns
@@ -682,13 +682,13 @@ cell. It has date format. The file seems to be complete.</p>
 <p><code>sleepDay_merged</code> The variables are Id, SleepDay,
 TotalSleepRecords, TotalMinutesAsleep, and TotalTimeInBed. This file has
 no missing “blank” cell. The date is in datetime format and needs to be
-formatted. The data frame is 5 x 412, so we do not have data for every
+formatted. The data frame is 412 x 5, so we do not have data for every
 participant.</p>
 <p><code>weightLogInfo_merged</code> The variables are Id, Date,
 WeightKg, WeightPounds, Fa, BMI, IsManualReport, and LogId. This file
 has no missing “blank” cell. The date is in datetime format and needs to
 be formatted. We are missing most of the information in the Fat columns.
-The data frame is 8 x 67, so we do not have data for every
+The data frame is 67 x 8, so we do not have data for every
 participant.</p>
 <p>The remaining files were not used: dailySteps_merged,
 heartrate_seconds_merged, hourlyCalories_merged,
